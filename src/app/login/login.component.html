@@ -1,0 +1,14 @@
+<!-- <p>login works!</p> -->
+<!-- <div class="mt-2 p-3">
+    <h2>{{data}}</h2>
+</div> -->
+<div class="container align-center p-5 mt-5  form-control">
+    <p>Login</p>
+    <form class="form text-center ">
+        <label>Email</label>
+        <input [(ngModel)]="acno" class="input" name="uname" id="ul" placeholder="Username or AC.NO">
+        <label>password</label>
+        <input [(ngModel)]="psw" name="password" id="p1" class="input" placeholder="password">
+        <button (click)="login()" type="button">Submit</button>
+    </form>
+</div>

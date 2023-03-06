@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("./assets/bankimge.webp/bankimge.webp.jfif");
+    background-size: cover;
+}
+header{
+    height: 50px;
+    background-color:rgb(4, 105, 105);
+    color: white;
+
+}
+footer{
+    color:white ;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(14, 14, 181, 0.87);
+
+}
+form{
+    
+}
+
